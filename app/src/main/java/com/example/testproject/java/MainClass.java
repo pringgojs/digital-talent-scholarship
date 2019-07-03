@@ -15,5 +15,13 @@ public class MainClass {
         Mobil.jumlahBan();
         Kereta.jumlahBan();
         Motor.jumlahBan();
+
+        penjumlahan(20, 30);
+    }
+
+    private static void penjumlahan( int a, int b) {
+        int x = a + b;
+
+        System.out.printf("Total a + b = " + x);
     }
 }
